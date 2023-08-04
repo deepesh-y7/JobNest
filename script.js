@@ -6,7 +6,7 @@ var tl = gsap.timeline()
 gsap.from(".ad , .ad .ad-box , .ad .ad-box .ad-img, .ad .ad-box .ad-content , .ad .ad-box .close-ad",{
      opacity:0,
      duration:0.7,
-     delay:8,
+     delay:4,
      stagger:0.5
 })
 
