@@ -51,7 +51,6 @@ html,body{
 .close-ad i{
   font-size: 1.2em;
   font-weight: 500;
-  cursor: pointer;
 }
 
 .ad-box{
@@ -884,3 +883,22 @@ form {
   }
 }
 
+.model-bubble{
+  overflow: hidden;
+}
+
+.model{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+}
+
+.bubble{
+  width: 100%;
+  height: 100%;
+}
